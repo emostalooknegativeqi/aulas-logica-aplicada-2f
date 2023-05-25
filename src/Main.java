@@ -33,5 +33,7 @@ public class Main {
         kyle.sobrenome = "Buttlowski";
         //definição de comportamento
         System.out.println(kyle.falar(" alto "));
+        kyle.comer();
     }
+
 }

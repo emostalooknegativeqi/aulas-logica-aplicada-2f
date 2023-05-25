@@ -5,10 +5,10 @@
 // \___  >|__|_|  / \____//____  > |__|  (____  /|____/ \____/  \____/ |__|_ \
 //     \/       \/             \/             \/                            \/
 //
-public class Pessoa {
+public class Pessoa extends Animal {
 
     //atributos da classe
-    String nome;
+
     String sobrenome;
 
     //metodo da classe
@@ -18,5 +18,9 @@ public class Pessoa {
 
     public String falar(String volume){
         return "your bastards" + volume;
+    }
+    //sobreescrita do metodo
+    public void comer(){
+        System.out.println("pessoa comeu ");
     }
 }
