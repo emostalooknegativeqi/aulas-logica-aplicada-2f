@@ -5,7 +5,6 @@
 // \___  >|__|_|  / \____//____  > |__|  (____  /|____/ \____/  \____/ |__|_ \
 //     \/       \/             \/             \/                            \/
 //
-
 public class Pessoa {
 
     //atributos da classe
@@ -15,5 +14,9 @@ public class Pessoa {
     //metodo da classe
     public void falar(){
         System.out.println("omg they killed kenny kk");
+    }
+
+    public String falar(String volume){
+        return "your bastards" + volume;
     }
 }

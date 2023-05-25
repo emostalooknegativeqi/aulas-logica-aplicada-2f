@@ -21,5 +21,17 @@ public class Main {
         //acionar comportamento
         stan.falar();
         eric.falar();
+
+        // criar mais objetos (classe, objeto, construtor)
+        Pessoa kenny = new Pessoa();
+        //declarar objeto
+        Pessoa kyle;
+        //instaciação do objeto
+        kyle = new Pessoa();
+        //definindo forma da pessoa
+        kyle.nome = "Kyle";
+        kyle.sobrenome = "Buttlowski";
+        //definição de comportamento
+        System.out.println(kyle.falar(" alto "));
     }
 }
