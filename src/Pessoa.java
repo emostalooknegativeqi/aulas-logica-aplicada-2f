@@ -14,6 +14,6 @@ public class Pessoa {
 
     //metodo da classe
     public void falar(){
-        System.out.println("omg they killed kenny");
+        System.out.println("omg they killed kenny kk");
     }
 }
