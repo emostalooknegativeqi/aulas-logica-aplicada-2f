@@ -1,4 +1,11 @@
 public class Planta {
-    public Planta(Semente s1) {
+    //metodo construtor
+    Planta(){
+
+    }
+
+    //sobrecarga do metodo construtor
+    Planta(Semente semente){
+
     }
 }
